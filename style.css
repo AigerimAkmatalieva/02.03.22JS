@@ -1,34 +1,4 @@
-* {
-  box-sizing: border-box;
+.dark-theme {
+  color: azure;
+  background-color: rgb(55, 55, 55);
 }
-
-.accordion {
-border: 1px solid lightgray;
-border-radius: .5rem;
-overflow: hidden; 
-}
-.accordion__header {
- padding: .5rem 1rem;
- background-color: aliceblue;
- font-weight: bold;
- cursor: pointer;
-}
-.accordion__content {
-  border-top: 1px solid lightgray;
-padding: .5rem 1rem;
-display: none;
-}
-.accordion--open .accordion__content {
-  display: block;
-}
-
-.accordions .accordion:not(:first-of-type) {
-border-top-left-radius: 0;
-border-top-right-radius: 0;
-border-top: none;
-}
-
-.accordions .accordion:not(:last-of-type) {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  }
