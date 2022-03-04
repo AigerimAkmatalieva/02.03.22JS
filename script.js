@@ -20,6 +20,13 @@ darkTheme.addEventListener('change', function() {
 	document.body.classList.toggle('dark-theme');
 });
 
+document.querySelector('button').addEventListener('click', function(){
+	document.querySelector('button').textContent = "generating...";
+});
+const timeoutExample1 = setTimeout(function() {
+	document.querySelector('button').textContent =
+	Math.random()*100;
+}, 3000);
 
 
 
